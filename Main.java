@@ -6,11 +6,14 @@ public class Main{
     swan.swim();
     swan.walk();
     swan.name("Swan");
+    swan.colour("white");
+    swan.colours();
 
     Turtles turtles= new Turtles();
     turtles.swim();
     turtles.walk();
     turtles.name("Turtles");
+    turtles.colours();
 
 
   }

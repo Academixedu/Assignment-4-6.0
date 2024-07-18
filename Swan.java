@@ -22,4 +22,16 @@ public class Swan implements Flyable,Swimmable,Walkable{
         System.out.println("swan can walk");
         
     }
+
+    @Override
+    public void colours() {
+        System.out.println("The swan can have different colours");
+       
+    }
+
+    @Override
+    public void colour(String colour) {
+        System.out.println("The swan is in the white colour");
+       
+    }
 }

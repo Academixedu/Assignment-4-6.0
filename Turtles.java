@@ -19,4 +19,9 @@ public class Turtles implements Walkable,Swimmable{
        
     }
 
+    @Override
+    public void colours() {
+        System.out.println("The turtles can have different colours");
+    }
+
 }
