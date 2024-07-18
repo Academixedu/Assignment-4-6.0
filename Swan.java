@@ -1,4 +1,4 @@
-class Swan implements Walkable, Flyable, Swimmable {
+class Swan implements Flyable, Walkable, Swimmable {
 
     @Override
     public void fly() {
@@ -15,19 +15,16 @@ class Swan implements Walkable, Flyable, Swimmable {
         System.out.println("Swan is able to swim");
     }
 
-    @Override
-    public void run(){
-        System.out.println("Swan is unable to run");
+    public void run() {
+        System.out.println("Swan is able to run");
     }
 
-    @Override
-    public void eat(){
-        System.out.println("Swan is unable to eat");
+    public void eat() {
+        System.out.println("Swan is able to eat");
     }
 
     @Override
     public void name(String name) {
-        System.out.println("The Name of the Swan is " + name);
-}
-
+        System.out.println("The name of the Swan is " + name);
+    }
 }
