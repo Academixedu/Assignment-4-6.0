@@ -16,6 +16,16 @@
     }
 
     @Override
+    public void run(){
+        System.out.println("Swan is unable to run");
+    }
+
+    @Override
+    public void eat(){
+        System.out.println("Swan is unable to eat");
+    }
+
+    @Override
     public void name(String name) {
         System.out.println("The Name of the Swan is " + name);
 }
