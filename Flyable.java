@@ -1,5 +1,7 @@
-public interface Flyable{
-void fly();
-void name(String name);
+public interface Flyable {
+    void fly();
+
+    void name(String name);
+
+    int fast();
 }
-  
