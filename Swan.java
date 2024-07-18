@@ -21,4 +21,14 @@ public class Swan implements Flyable,Swimmable,Walkable{
         System.out.println("swan is walking");
 
 }
+
+    @Override
+    public void eat() {
+      System.out.println("Swan is eating");
+}
+
+    @Override
+    public void dance() {
+    System.out.println("Swan is dancing");
+    }
 }

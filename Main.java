@@ -6,11 +6,14 @@ public class Main{
       s.swim();
       s.name("Swan");
       s.walk();
+      s.eat();
+      s.dance();
 
       Turtles t=new Turtles();
       t.walk();
       t.swim();
       t.name("Turtles");
+      t.dance();
       
   
 

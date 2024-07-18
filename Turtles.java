@@ -12,4 +12,8 @@ public void name(String name) {
 public void walk() {
   System.out.println("Turtles can walk");
 }
+@Override
+public void dance() {
+   System.out.println("Turtles can dance");
+}
 }
