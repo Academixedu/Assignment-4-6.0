@@ -1,4 +1,4 @@
- class Swan implements Walkable, Flyable, Swimmable {
+class Swan implements Walkable, Flyable, Swimmable {
 
     @Override
     public void fly() {
