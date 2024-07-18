@@ -15,4 +15,13 @@ public class Turtles implements Walkable, Swimmable {
         System.out.println("Swimming");
     }
     // implement desired interface and make implementations to it
+
+    public int fast() {
+        return 0;
+    }
+
+    @Override
+    public int fast(int x) {
+        return x;
+    }
 }
