@@ -1,4 +1,8 @@
 public interface Swimmable{
-void swim();
-void name(String name);  
+    void swim();
+    void eat();
+    void name(String name);  
 }
+
+
+
