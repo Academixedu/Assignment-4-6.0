@@ -8,7 +8,6 @@ public class Main{
     s.name("Swan");
     Turtles t=new Turtles();
     t.swim();
-    t.fly();
     t.walk();
     t.name("Turtles");
     

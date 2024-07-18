@@ -1,4 +1,4 @@
-public class Turtles implements Swimmable, Walkable, Flyable{
+public class Turtles implements Swimmable, Walkable{
 // implement desired interface and make implementations to it
 public void walk()
 {
@@ -7,10 +7,6 @@ public void walk()
 public void swim()
 {
   System.out.println("Turtle can Swim");
-}
-public void fly()
-{
-    System.out.println("Turtle can't Fly");
 }
 public void name(String name)
 {
