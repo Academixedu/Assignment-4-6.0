@@ -5,13 +5,13 @@ public class Main {
         s.swim();
         s.fly();
         s.walk();
-        s.name("Bujji");
+        s.name("Bujji love");
 
         Turtles t = new Turtles();
         t.swim();
         t.fly();
         t.walk();
-        t.name("Deva");
+        t.name("Devaratha");
 
     }
 
